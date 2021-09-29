@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Contact Manager" android:icon="@drawable/ic_launcher_foreground">
+            <menu>
+                <item android:id="@+id/menu_item_list_contact" android:title="List Contact" android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/menu_item_add_contact" android:title="Add Contact" android:icon="@drawable/ic_launcher_foreground"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_launcher_foreground" android:title="Song Manager">
+            <menu>
+                <item android:id="@+id/menu_item_list_song" android:title="List Song" android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/menu_item_create_song" android:title="Create Song" android:icon="@drawable/ic_launcher_foreground"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_item_about" android:title="About Us" android:icon="@drawable/ic_launcher_foreground"/>
+        <item android:id="@+id/menu_item_policy" android:title="Policy" android:icon="@drawable/ic_launcher_foreground"/>
+    </group>
+
+</menu>
